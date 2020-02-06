@@ -52,7 +52,7 @@ jobs:
         env:
           CI: true
 
-test_backend:
+  test_backend:
     runs-on: ubuntu-latest
     env:
       working-directory: ./server
