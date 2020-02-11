@@ -74,7 +74,7 @@ jobs:
       - name: Npm install client
         run: npm install 
         working-directory: ${{ env.client }}
-       - name: Build the client
+      - name: Build the client
         run: npm run-script build
         working-directory: ${{ env.client }}
       - run: npm test
